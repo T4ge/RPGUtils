@@ -1,10 +1,12 @@
 package com.tage.rpgutil.item;
 
-public class ItemLeaf extends ItemRPGU 
+import com.tage.rpgutil.reference.Names;
+
+public class ItemLeaf extends ItemRPGU
 {
 	public ItemLeaf()
 	{
 		super();
-		this.setUnlocalizedName("Leaf");
+		this.setUnlocalizedName(Names.Items.LEAF);
 	}
 }
