@@ -13,15 +13,15 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
 import net.minecraft.creativetab.CreativeTabs;
 
-public class ItemSwordDarkIron extends ItemSword
+public class ItemSwordRusty extends ItemSword
 {
-    public ItemSwordDarkIron()
+    public ItemSwordRusty()
     {
         super(Item.ToolMaterial.IRON);
         this.setCreativeTab(CreativeTabs.tabCombat);
         this.setNoRepair();
         this.maxStackSize = 1;
-        this.setUnlocalizedName(Names.Items.SPIKEDSWORD);
+        this.setUnlocalizedName(Names.Items.RUSTYIRONSWORD);
     }
 
     @Override

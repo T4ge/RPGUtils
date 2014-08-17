@@ -13,9 +13,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
 import net.minecraft.creativetab.CreativeTabs;
 
-public class ItemSwordDarkIron extends ItemSword
+public class ItemSpikedDarkIron extends ItemSword
 {
-    public ItemSwordDarkIron()
+    public ItemSpikedDarkIron()
     {
         super(Item.ToolMaterial.IRON);
         this.setCreativeTab(CreativeTabs.tabCombat);

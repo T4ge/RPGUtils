@@ -2,26 +2,27 @@ package com.tage.rpgutil.item;
 
 import com.tage.rpgutil.reference.Names;
 import com.tage.rpgutil.reference.Reference;
-
+import com.tage.rpgutil.reference.Material;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraftforge.common.util.EnumHelper;
 
-public class ItemSwordDarkIron extends ItemSword
+public class ItemNetherSword extends ItemSword
 {
-    public ItemSwordDarkIron()
+
+	public ItemNetherSword()
     {
-        super(Item.ToolMaterial.IRON);
+        super(Material.Tools.DARK_IRON);
         this.setCreativeTab(CreativeTabs.tabCombat);
         this.setNoRepair();
         this.maxStackSize = 1;
-        this.setUnlocalizedName(Names.Items.SPIKEDSWORD);
+        this.setUnlocalizedName(Names.Items.NETHERSWORD);
     }
 
     @Override
